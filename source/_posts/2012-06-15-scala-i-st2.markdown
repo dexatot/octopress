@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Scala и ST2"
+date: 2012-06-15 03:33
+comments: true
+categories: 
+---
+
+## Intro
+Без лишних слов начнем готовить все для того чтобы начать кодить на Scala под Sublime Text 2 и получать много фана :-).
+
+## Установка Scala
+	brew install scala
+После этого проверим все ли установилось правильно:
+	scala -version
+	Scala code runner version 2.9.2 -- Copyright 2002-2011, LAMP/EPFL
+
+## Установка sbt (Scala Build Tool)
+	brew install sbt
+Проверим:
+	sbt --version
+	sbt launcher version 0.11.3-2
+
+## Устанавливаем ensime плагин в sbt
+https://github.com/aemoncannon/ensime-sbt-cmd
